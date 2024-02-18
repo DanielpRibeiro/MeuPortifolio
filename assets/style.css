@@ -33,7 +33,7 @@ div {
 
 @media (max-width:650px) {
     .home h1 {
-        font-size: 40px !important;
+        /* font-size: 40px !important; */
     }
 
     #habilidades main {
@@ -210,18 +210,24 @@ h4 {
 /* ******************************* HOME **********************************************/
 
 
-
+.homePrincipal .home{
+    display: flex;
+    text-align: top;
+    align-items: center;
+    justify-content: center;
+}
 
 
 .homePrincipal {
-    /* margin-top: 30% !important; */
-    display: grid;
+
     gap: 10px;
-    /* border: 2px solid blue; */
+    display: flex;
     margin: 0 auto;
     padding: 15px;
-    height: 580px;
-    /* justify-items: center; */
+    height: 50vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .home {
@@ -230,6 +236,7 @@ h4 {
     justify-content: center !important;
     text-align: center !important;
     align-items: center !important;
+    display: flex;
 }
 
 .texthome {
@@ -377,7 +384,7 @@ h4 {
     }
 
     .home h1 {
-        font-size: 30px;
+        /* font-size: 30px; */
     }
 }
 
@@ -809,4 +816,12 @@ button:hover {
     .sb img {
         width: 180px;
     }
+    #capa{
+        background-attachment: scroll;
+
+    }
+
+    .homePrincipal .home .mob-t{
+        font-size: 25px !important;
+   
 }
