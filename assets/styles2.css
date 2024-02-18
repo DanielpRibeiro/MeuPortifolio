@@ -1,0 +1,667 @@
+.proj {
+    background-color: #555;
+
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 500px;
+    background-color: rgba(26, 26, 26, 0.5);
+    overflow: hidden;
+}
+
+.card span:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, transparent, green);
+    height: 5px;
+    animation: animar1 1s infinite;
+    animation-delay: 1s;
+
+}
+
+@keyframes animar1 {
+    0% {
+        transform: translatex(-100%);
+    }
+
+    100% {
+        transform: translatex(100%);
+    }
+}
+
+.card span:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, green);
+    width: 5px;
+    animation: animar2 1s infinite;
+    animation-delay: 2s;
+
+}
+
+@keyframes animar2 {
+    0% {
+        transform: translatey(-100%);
+    }
+
+    100% {
+        transform: translatey(100%);
+    }
+}
+
+.card span:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, transparent, green);
+    animation: animar3 2s infinite;
+    animation-delay: 3s;
+
+
+
+}
+
+@keyframes animar3 {
+    0% {
+        transform: translatex(100%);
+    }
+
+    100% {
+        transform: translatex(-100%);
+    }
+}
+
+.card span:last-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+
+    background: linear-gradient(to top, transparent, green);
+    animation: animar4 3s infinite;
+
+    animation-delay: 4s;
+
+
+
+
+}
+
+@keyframes animar4 {
+    0% {
+        transform: translatey(100%);
+    }
+
+    100% {
+        transform: translatey(-100%);
+    }
+}
+
+
+.cd {
+    height: 600px;
+    max-width: 1200px;
+}
+
+/* ******************************************************************** */
+
+.proj {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    /* Se necessário, mantenha a posição relativa */
+    background-color: rgb(22, 22, 22);
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.proj .hdd {
+    color: white;
+}
+
+.proj:hover .hdd {
+    color: var(--cor-primary);
+    display: block;
+    /* Exibe o parágrafo quando o mouse passa sobre a div .proj */
+}
+
+
+
+
+.proj span:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #38EF7D);
+    width: 5px;
+    animation: animar2 2s infinite;
+    /* Ajuste o tempo total da animação para 8 segundos */
+    animation-delay: 4s;
+    /* Adicione um atraso igual à duração total da animação */
+}
+
+@keyframes animar2 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.proj span:nth-of-type(3) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to left, transparent, #38EF7D);
+    animation: animar3 2s infinite;
+    animation-delay: 4s;
+
+
+
+}
+
+@keyframes animar3 {
+    0% {
+        transform: translatex(100%);
+    }
+
+    100% {
+        transform: translatex(-100%);
+    }
+}
+
+
+
+
+/* **************************************************************** */
+
+/* 
+.cd2 span:first-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, transparent, rgb(255, 0, 0));
+    height: 5px;
+    animation: animar1 2s infinite;
+}
+
+@keyframes animar1{
+    0% {
+        transform: translatex(-100%);
+    }
+    100%{
+        transform: translatex(100%);
+    }
+}
+*/
+
+.cd2 span:nth-of-type(2) {
+
+    background: linear-gradient(to bottom, transparent, rgb(255, 0, 0));
+
+}
+
+
+.cd2 span:nth-of-type(3) {
+
+    background: linear-gradient(to left, transparent, rgb(255, 0, 0));
+
+
+
+
+}
+
+/*
+@keyframes animar3{
+    0% {
+        transform: translatex(100%);
+    }
+    100%{
+        transform: translatex(-100%);
+    }
+} */
+
+/*
+.cd2 span:last-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    animation: animar4 2s infinite;
+    height: 100%;
+
+    background: linear-gradient(to top, transparent, rgb(255, 0, 0));
+    animation-delay: 5s;
+
+
+
+
+
+}
+
+@keyframes animar4{
+    0% {
+        transform: translatey(100%);
+    }
+    100%{
+        transform: translatey(-100%);
+    }
+}
+
+
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+/* **************************************************************** */
+
+
+/* .cd3 span:first-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, transparent,  rgb(0, 195, 255));
+    animation: animar1 2s infinite;
+}
+
+@keyframes animar1{
+    0% {
+        transform: translatex(-100%);
+    }
+    100%{
+        transform: translatex(100%);
+    }
+}
+*/
+.cd3 span:nth-of-type(2) {
+
+    background: linear-gradient(to bottom, transparent, rgb(0, 195, 255));
+
+}
+
+/*
+*/
+.cd3 span:nth-of-type(3) {
+
+    background: linear-gradient(to left, transparent, rgb(0, 195, 255));
+
+
+
+
+}
+
+/*
+
+@keyframes animar3{
+    0% {
+        transform: translatex(100%);
+    }
+    100%{
+        transform: translatex(-100%);
+    }
+}
+
+.cd3 span:last-of-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    animation: animar4 2s infinite;
+    height: 100%;
+
+    background: linear-gradient(to top, transparent, rgb(0, 195, 255));
+    animation-delay: 5s;
+
+
+
+
+
+}
+
+@keyframes animar4{
+    0% {
+        transform: translatey(100%);
+    }
+    100%{
+        transform: translatey(-100%);
+    }
+} */
+
+
+
+/* ************************************************CONHECIMENTO *******************************************/
+
+.conhecimento .conhec {
+    overflow: hidden;
+}
+
+.conhecimento {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    /* Se necessário, mantenha a posição relativa */
+    overflow: hidden;
+    cursor: pointer;
+    /* width: auto; */
+}
+
+.conhecimento var:nth-of-type(1) {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to left, transparent, #38EF7D);
+    animation: ani1 2s infinite;
+    animation-delay: 0.1s;
+}
+
+@keyframes ani1 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* esquerda */
+.conhecimento var:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    animation: ani2 2s infinite;
+    height: 100%;
+
+    background: linear-gradient(to top, transparent, rgb(0, 195, 255));
+    animation-delay: 5s;
+
+}
+
+@keyframes ani2 {
+    0% {
+        transform: translatey(100%);
+    }
+
+    100% {
+        transform: translatey(-100%);
+    }
+}
+
+
+
+
+
+.conhecimento var:nth-of-type(3) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, transparent, rgb(255, 230, 0));
+    animation: ani3 2s infinite;
+}
+
+@keyframes ani3 {
+    0% {
+        transform: translatex(-100%);
+    }
+
+    100% {
+        transform: translatex(100%);
+    }
+}
+
+
+/* direita */
+
+.conhecimento var:nth-of-type(4) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #ae00ff);
+    width: 4px;
+    animation: ani4 2s infinite;
+    /* Ajuste o tempo total da animação para 8 segundos */
+    animation-delay: 5s;
+    /* Adicione um atraso igual à duração total da animação */
+}
+
+@keyframes ani4 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+.sb {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    /* Se necessário, mantenha a posição relativa */
+    background-color: rgb(22, 22, 22);
+    overflow: hidden;
+    cursor: pointer;
+    /* width: auto; */
+}
+
+
+
+
+
+.sb samp:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Ajuste para o lado esquerdo */
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #38EF7D);
+    animation: animar2 2s infinite;
+}
+
+@keyframes animar2 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+.sb samp:nth-of-type(4) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* Ajuste para o lado direito */
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #38EF7D);
+    animation: animar4 2s infinite;
+}
+
+@keyframes animar4 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+
+
+
+
+
+/* contato */
+
+
+
+
+
+
+
+
+
+
+
+
+.ctt {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    /* Se necessário, mantenha a posição relativa */
+    background-color: rgb(22, 22, 22);
+    overflow: hidden;
+    cursor: pointer;
+    /* width: auto; */
+}
+
+.ctt pre:nth-of-type(1) {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, #ff0000);
+    animation: ani1 2s infinite;
+    animation-delay: 0.1s;
+}
+
+@keyframes ani1 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+/* esquerda */
+.ctt pre:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    animation: ani2 2s infinite;
+    height: 100%;
+    background: linear-gradient(to top, transparent, rgb(0, 195, 255));
+    animation-delay: 5s;
+
+}
+
+@keyframes ani2 {
+    0% {
+        transform: translatey(100%);
+    }
+
+    100% {
+        transform: translatey(-100%);
+    }
+}
+
+.contact pre:nth-of-type(3) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, rgb(0, 255, 115));
+    animation: ani3 2s infinite;
+}
+
+@keyframes ani3 {
+    0% {
+        transform: translatex(-100%);
+    }
+
+    100% {
+        transform: translatex(100%);
+    }
+}
+
+
+/* direita */
+
+.contact pre:nth-of-type(4) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #ae00ff);
+    width: 3px;
+    animation: ani4 2s infinite;
+    animation-delay: 5s;
+}
+
+@keyframes ani4 {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
