@@ -108,7 +108,7 @@
 
     </section>
 
-<!-- HABILIDADES -->
+    <!-- HABILIDADES -->
 
     <section id="habilidades">
         <main>
@@ -327,42 +327,42 @@
 
         <div class="dev">
             <div class="dv">
-                <h2 style="color: rgb(163, 0, 0);">Sistema Web Completo</h2>
+                <h2 style="color: rgb(208, 0, 0);">Sistema Web Completo</h2>
                 <div class="divisor-img"></div>
 
                 <div>
                     <h4 style="display: inline-block;"><span
                             style="color: rgb(163, 0, 0); font-size: 40px; font-weight: 800;">1 </span>Sistema de
                         autenticação e login</h4><br>
-                        <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
+                    <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
 
 
 
                     <h4 style="display: inline-block;"><span
                             style="color: rgb(163, 0, 0); font-size: 40px; font-weight: 800;">2 </span>Formulário e
                         processamento reservas</h4><br>
-                        <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
+                    <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
 
 
 
                     <h4 style="display: inline-block;"><span
                             style="color:rgb(163, 0, 0); font-size: 40px; font-weight: 800;">3 </span>Página de detalhes
                         do produto/serviço</h4><br>
-                        <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
+                    <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
 
 
 
                     <h4 style="display: inline-block;"><span
                             style="color: rgb(163, 0, 0); font-size: 40px; font-weight: 800;">4 </span>Gerenciamento de
                         estoque</h4><br>
-                        <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
+                    <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
 
 
 
                     <h4 style="display: inline-block;"><span
                             style="color:rgb(163, 0, 0); font-size: 40px; font-weight: 800;">5 </span>Painel de
                         administração</h4><br>
-                        <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
+                    <hr style="border: 2xp solid rgba(24, 24, 24, 0.39);">
 
 
 
@@ -435,12 +435,36 @@
         </div>
 
         <main style="padding: 50px; margin-top: 50px;">
-            <a href="https://www.instagram.com/dr.webcreations/?hl=pt-br" target="_blank"><button>Fale Comigo Agora</button></a>
+            <a href="https://www.instagram.com/dr.webcreations/?hl=pt-br" target="_blank"><button>Fale Comigo
+                    Agora</button></a>
         </main>
         <main style="padding: 20px; margin-top: 10px;">
             <img src="assets/img/logo_web.png" width="120" alt="">
+            <script>
+                function updateVisitorCount() {
+                    if (document.cookie.indexOf('visitorsCount=') === -1) {
+                        document.cookie = 'visitorsCount=1; expires=Fri, 31 Dec 9999 23:59:59 GMT';
+                    } else {
+                        var count = parseInt(document.cookie.split('=')[1]) + 1;
+                        document.cookie = 'visitorsCount=' + count + '; expires=Fri, 31 Dec 9999 23:59:59 GMT';
+                    }
+                    
+                    document.getElementById('visitorsCount').textContent = document.cookie.split('=')[1];
+                }
+                
+                updateVisitorCount();
+            </script>
+            <p style="color: white; font-size: 10px;">Vers. <span id="visitorsCount">0</span> </p>
+            <div style="display: none;" id="contador">
+                <h1>Visitas:</h1>
+                <span id="numero-visitas">0</span>
+              </div>
+              <script src="script.js"></script>
+
+
 
         </main>
+
 
     </section>
 
@@ -461,6 +485,7 @@
             modal.style.display = 'none';
         }
     </script>
+
 
 
 </body>

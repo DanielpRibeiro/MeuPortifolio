@@ -31,11 +31,12 @@ div {
     --cor-dark: rgb(12, 12, 12);
 }
 
-@media (max-width:650px){
-    .home h1{
+@media (max-width:650px) {
+    .home h1 {
         font-size: 40px !important;
     }
-    #habilidades main{
+
+    #habilidades main {
         padding: 5px;
     }
 }
@@ -86,8 +87,8 @@ h3 {
     margin: 0 auto;
     background-image: url("https://i.imgur.com/5s44y8F.png");
     background-repeat: repeat-x;
-  }
-  
+}
+
 
 .home h1 {
     /* font-family: monospace; */
@@ -110,10 +111,12 @@ h3 {
     margin: 0;
     padding: 5px;
 }
- h4{
+
+h4 {
     font-size: 22px;
     font-weight: 500;
- }
+}
+
 .home {
     animation: entrada 1s ease-in-out;
 }
@@ -179,13 +182,13 @@ h3 {
 #capa {
     background-image: url(img/home.jpg);
     width: 100%;
+    height: 100vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:
-        /* height: 100vh; */
-        align-items: center !important;
+    align-items: center !important;
     justify-content: center !important;
+    background-attachment: fixed;
     /* display: flex; */
 }
 
@@ -195,7 +198,8 @@ h3 {
 
         grid-template-columns: repeat(2, 1fr);
     }
-    .h3{
+
+    .h3 {
         font-size: 20px;
     }
 
@@ -266,7 +270,8 @@ h3 {
     background-color: #00000000;
 
 }
-.bk{
+
+.bk {
     background-color: rgb(22, 22, 22);
 
 }
@@ -308,11 +313,13 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.8); /* Cor de fundo com opacidade */
-    background-blend-mode: overlay; /* Mistura a imagem de plano de fundo com a cor de fundo */
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Cor de fundo com opacidade */
+    background-blend-mode: overlay;
+    /* Mistura a imagem de plano de fundo com a cor de fundo */
 
 
-  
+
 }
 
 .conhecimento {
@@ -404,13 +411,16 @@ h3 {
 #projetos {
     /* background-color: rgb(0, 0, 0); */
     background-image: url(projetos/capas.jpg);
-    background-color: rgba(0, 0, 0, 0.9); /* Cor de fundo com opacidade */
-    background-blend-mode: overlay; /* Mistura a imagem de plano de fundo com a cor de fundo */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Cor de fundo com opacidade */
+    background-blend-mode: overlay;
+    /* Mistura a imagem de plano de fundo com a cor de fundo */
 
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
-background-attachment: fixed;    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
     padding-bottom: 10%;
 }
 
@@ -428,7 +438,8 @@ background-attachment: fixed;    width: 100%;
     text-align: center;
 
 }
-.proj:hover{
+
+.proj:hover {
     background-color: rgb(12, 12, 12);
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
@@ -485,20 +496,22 @@ background-attachment: fixed;    width: 100%;
     margin: 0 auto;
     box-shadow: #000;
 }
-.dv .imgConhecimentos{
+
+.dv .imgConhecimentos {
     width: 100%;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
 
-    #info{
+    #info {
         padding-bottom: 20px;
     }
 
-    #habilidades{
+    #habilidades {
         padding: 25px !important;
     }
-    .conhecimento{
+
+    .conhecimento {
         padding: 20px;
     }
 
@@ -536,14 +549,17 @@ main {
     box-sizing: border-box;
     padding-bottom: 60px;
     background-image: url(img/home.jpg);
-    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo com opacidade */
-    background-blend-mode: overlay; /* Mistura a imagem de plano de fundo com a cor de fundo */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Cor de fundo com opacidade */
+    background-blend-mode: overlay;
+    /* Mistura a imagem de plano de fundo com a cor de fundo */
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-    .contact {
+
+.contact {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(4, 1fr));
@@ -576,8 +592,8 @@ main {
     .contact {
         grid-template-columns: repeat(4, 1fr);
     }
-  
-  
+
+
 }
 
 
@@ -661,10 +677,11 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .ctt .bt1:hover {
-    
+
     background-image: url(img/icon/beh-.png);
-    
+
 }
 
 .ctt .bt2 {
@@ -675,10 +692,11 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .ctt .bt2:hover {
-    
+
     background-image: url(img/icon/insta-.png);
-    
+
 }
 
 .ctt .bt3 {
@@ -689,10 +707,11 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .ctt .bt3:hover {
-    
+
     background-image: url(img/icon/git-@1\,25x.png);
-    
+
 }
 
 .ctt .bt4 {
@@ -703,10 +722,11 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .ctt .bt4:hover {
-    
+
     background-image: url(img/icon/link-.png);
-    
+
 }
 
 .contact {
@@ -715,13 +735,16 @@ button:hover {
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
-    flex-wrap: wrap; /* Permitir que os itens sejam embrulhados em várias linhas */
+    flex-wrap: wrap;
+    /* Permitir que os itens sejam embrulhados em várias linhas */
 }
 
 .ctt {
     margin: 0 5px;
-    width: 250px; /* Largura padrão para desktop */
-    height: 60px; /* Altura padrão para desktop */
+    width: 250px;
+    /* Largura padrão para desktop */
+    height: 60px;
+    /* Altura padrão para desktop */
 }
 
 .ctt .bt1,
@@ -737,41 +760,53 @@ button:hover {
 
 @media (max-width: 600px) {
     .ctt {
-        width: 75%; /* Largura total para mobile */
-        height: 80px; /* Altura automática para ajustar o conteúdo */
+        width: 75%;
+        /* Largura total para mobile */
+        height: 80px;
+        /* Altura automática para ajustar o conteúdo */
     }
-    #contato .h3{
+
+    #contato .h3 {
         font-size: 20px;
     }
-    .dv{
+
+    .dv {
         padding: 30px;
     }
-    #capa .mob{
-        display:none;
+
+    #capa .mob {
+        display: none;
     }
-    #capa .menu{
+
+    #capa .menu {
         width: 100%;
         text-align: center;
-        
+
     }
-    .cabecalho{
+
+    .cabecalho {
         grid-template-columns: 93% !important;
 
     }
-    .sobreMim{
+
+    .sobreMim {
         padding: 4px;
         margin: 0px;
     }
-    #if{
+
+    #if {
         padding: 5px;
     }
-    .sobre{
+
+    .sobre {
         margin: 15px;
     }
-    .sb{
+
+    .sb {
         padding: 40px;
     }
-    .sb img{
+
+    .sb img {
         width: 180px;
     }
 }
